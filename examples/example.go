@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/djordjev/go-session-im/packages/imsession"
+	"github.com/djordjev/go-session-im/imsession"
 )
 
 func main() {
