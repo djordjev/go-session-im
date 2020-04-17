@@ -107,7 +107,7 @@ func garbageCollector(manager *SessionManager) {
 		select {
 		case <-manager.signalStop:
 			return
-		case <-time.After(time.Second * 2):
+		case <-time.After(time.Minute * 2):
 			break
 		}
 
